@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//mai
         val bSaludar = findViewById<Button>(R.id.bSaludar)
         val etNombre = findViewById<EditText>(R.id.etNombre)
         val cbDev = findViewById<CheckBox>(R.id.cbDeveloper)
